@@ -24,6 +24,7 @@ namespace WURDA3
                 temp[i] = subjects[i];
             }
             temp[subjects.Length] = subject;
+            subjects = temp;
             lengthOfDay += subject.length;
             return true;
         }

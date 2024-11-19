@@ -10,7 +10,7 @@ namespace WURDA3
     {
         static void Main(string[] args)
         {
-            new Third();
+            new Second();
             Console.ReadKey();
         }
     }
