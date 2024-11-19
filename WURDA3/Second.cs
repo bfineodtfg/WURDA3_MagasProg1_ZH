@@ -29,7 +29,7 @@ namespace WURDA3
                 lengthOfClasses += days[i].lengthOfDay;
                 numberOfClasses += days[i].subjects.Length;
             }
-            Console.WriteLine($"A heti órák hossza összesen : {lengthOfClasses/60}:{lengthOfClasses%60}, darabszáma: {numberOfClasses}");
+            Console.WriteLine($"A heti órák hossza összesen : {lengthOfClasses/60}:{(lengthOfClasses%60).ToString("00")}, darabszáma: {numberOfClasses}");
             foreach (var item in days)
             {
                 Console.WriteLine(item.lengthOfDay);
